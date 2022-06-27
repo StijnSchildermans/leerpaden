@@ -1,0 +1,17 @@
+{
+  "name": "adapt-leerpaden-open",
+  "version": "0.1.9",
+  "framework": ">=5.18.8",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-textInput",
+  "bugs": "https://github.com/adaptlearning/adapt-contrib-textInput/issues",
+  "component" : "leerpaden-open",
+  "targetAttribute": "_leerpaden-open",
+  "displayName" : "Leerpaden Open",
+  "description": "Custom input component voor open vragen voor leerpaden",
+  "main": "/js/adapt-contrib-leerpaden-open.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}

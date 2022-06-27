@@ -1,0 +1,17 @@
+{
+  "name": "adapt-contrib-leerpaden-open",
+  "version": "6.0.0",
+  "framework": ">=5.18.8",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-textInput",
+  "bugs": "https://github.com/adaptlearning/adapt-contrib-textInput/issues",
+  "component" : "leerpaden-open",
+  "targetAttribute": "_leerpaden-open",
+  "displayName" : "Text Input",
+  "description": "A question component that allows the learner to input text based upon a question stem.",
+  "main": "/js/adapt-contrib-leerpaden-open.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}
