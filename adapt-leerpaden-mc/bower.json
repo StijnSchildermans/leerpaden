@@ -1,6 +1,6 @@
 {
   "name": "adapt-leerpaden-mc",
-  "version": "0.1.3",
+  "version": "0.1.13",
   "framework": ">=5.19.1",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-mcq",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-mcq/issues",

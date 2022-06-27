@@ -54,6 +54,32 @@ class LeerpadenMcModel extends ItemsQuestionModel {
   }
 
 
+  setupIncorrectFeedback() {
+    const body = this.get('_feedback').incorrect;
+    this.set({
+      feedbackTitle: this.getFeedbackTitle(),
+      feedbackMessage: Handlebars.compile(body)(this.toJSON())
+    });
+  }
+
+  setupFeedback() {
+    if (!this.has('_feedback')) return;
+
+    if (this.get('_isCorrect')) {
+      this.setupCorrectFeedback();
+      return;
+    }
+
+    // apply individual item feedback
+    const activeItem = this.getActiveItem();
+    if (this.isSingleSelect() && activeItem.get('feedback')) {
+      this.setupIndividualFeedback(activeItem);
+      return;
+    }
+
+    this.setupIncorrectFeedback();
+  }
+
 }
 
 
