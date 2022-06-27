@@ -1,0 +1,17 @@
+{
+  "name": "adapt-contrib-leerpaden-mc",
+  "version": "7.1.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-mcq",
+  "bugs": "https://github.com/adaptlearning/adapt-contrib-mcq/issues",
+  "component" : "leerpaden-mc",
+  "targetAttribute": "_leerpaden-mc",
+  "displayName" : "Leerpaden Multiple Choice Question",
+  "description": "A multiple choice question component that dynamically displays content based on user input",
+  "main": "/js/adapt-contrib-leerpaden-mc.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}
